@@ -417,17 +417,17 @@ a.nav-link {
   box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 0px inset;
   border-radius: 10px;
   border: 0px solid var(--Text-Colour-5, #D4D4D4);
-  color: var(--Text-Colour-4, #AAA);
+  color: #0c0a0a;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
   width: 100% !important;
   height: auto !important;
-  margin-bottom: 30px !important;
+  margin-bottom: 6px !important;
   /* margin-top: 30px !important; */
   font-family: Poppins, sans-serif !important;
-  margin-left: 0px !important;
+  margin-left: -6px !important;
 }
 
 .form-item {
@@ -2097,11 +2097,11 @@ select {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* margin-right: auto; */
-  /* float: left; */
+  margin-right: auto;
+  float: left;
   position: absolute;
   top: 16px;
-  left: 302px;
+  /* left: 302px; */
   gap: 10px;
 }
 
@@ -2203,3 +2203,95 @@ line-height: 26px; /* 162.5% */
   align-content: center;
   bottom: 20px;
 }
+.real{
+  margin-top:150px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+
+/* Extra Things */
+body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+
+
+
+
+/* 
+
+
+
+#form.invalid .input-box::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+ 
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#form.valid .input-box::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+  background: url(https://fadzrinmadu.github.io/hosted-assets/email-validation-check-using-javascript/valid.png); 
+  -webkit-background-size: cover;
+  background-size: cover;
+} 
